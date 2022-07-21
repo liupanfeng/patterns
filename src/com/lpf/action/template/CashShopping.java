@@ -7,10 +7,9 @@ import java.util.List;
 
 /**
  * 模板方法模式
- * 购物车费用结算过程
+ * 现金
  */
 public class CashShopping extends ShoppingCart{
-
 
     public CashShopping(List<Fruit> products) {
         super(products);

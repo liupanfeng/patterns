@@ -1,15 +1,15 @@
 package com.lpf.action.template;
 
-import com.enjoy.entity.Fruit;
+
+import com.lpf.entity.Fruit;
 
 import java.util.List;
 
 /**
  * 模板方法模式
- * 购物车费用结算过程
+ * 会员卡
  */
 public class CartShopping extends ShoppingCart{
-
 
     public CartShopping(List<Fruit> products) {
         super(products);
